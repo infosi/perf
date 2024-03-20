@@ -9,9 +9,15 @@
 
     <link rel="preload" href="./assets/style.min.css" as="style" />
     <link rel="preload" href="./assets/bootstrap/bootstrap.min.css" as="style" />
-    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" as="style" onload="this.rel='stylesheet'">
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" as="style" onload="this.rel='stylesheet'" />
 
-    <link rel="preload" as="image" href="./assets/images/slider/ryoji-iwata-small.avif" media="(max-width: 720px)" />
+    <!-- <link rel="preload" as="image" href="./assets/images/slider/ryoji-iwata-small.avif" media="(max-width: 720px)" /> -->
+    <link rel="preload"
+    as="image"
+    href="./assets/images/slider/ryoji-iwata-normal.avif"
+    imagesrcset="./assets/images/slider/ryoji-iwata-normal.avif 1100w, ./assets/images/slider/ryoji-iwata-medium.avif 768w, ./assets/images/slider/ryoji-iwata-small.avif 335w"
+    imagesizes="(max-width: 1100px) 100vw, 1100px"
+  />
 
     <script src="./assets/bootstrap/bootstrap.bundle.min.js" defer></script>
     <script src="./assets/maugallery.min.js" defer></script>
@@ -21,7 +27,7 @@
     <link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css" />
     <link rel="stylesheet" href="./assets/style.min.css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" media="print" onload="this.onload=null;this.removeAttribute('media');this.media='all';" fetchpriority="high" />
-    
+
     <noscript>
       <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" />
     </noscript>
@@ -52,13 +58,22 @@
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <picture>
-
-              <img src="./assets/images/slider/ryoji-iwata-small.avif" width="100%" height="300" alt="..." class="d-block w-100" sizes="100vw"/>
+            <!-- <picture>
+              <img src="./assets/images/slider/ryoji-iwata-small.avif" width="100%" height="300" alt="..." class="d-block w-100" sizes="100vw" />
               <source media="(max-width: 720px)" width="100%" height="300" srcset="./assets/images/slider/ryoji-iwata-small.avif" />
               <source media="(min-width: 721px) and (max-width: 1024px)" width="100%" height="500" srcset="./assets/images/slider/ryoji-iwata-medium.avif" />
               <source media="(min-width: 1024px)" width="100%" height="900" srcset="./assets/images/slider/ryoji-iwata-normal.avif" />
-            </picture>
+            </picture> -->
+
+            <img
+              width="100%"
+              height="900"
+              src="./assets/images/slider/ryoji-iwata-normal.avif"
+              srcset="./assets/images/slider/ryoji-iwata-normal.avif 1100w, ./assets/images/slider/ryoji-iwata-medium.avif 768w, ./assets/images/slider/ryoji-iwata-small.avif 335w"
+              sizes="(max-width: 1100px) 100vw, 1100px"
+              alt="ryoji"
+              class="d-block w-100"
+            />
           </div>
           <div class="carousel-item">
             <picture>
