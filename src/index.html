@@ -13,6 +13,7 @@
     <script src="./assets/bootstrap/bootstrap.bundle.min.js" defer></script>
     <script src="./assets/maugallery.min.js" defer></script>
     <script src="./assets/scripts.min.js" defer></script>
+    <script src="./assets/lazysizes.min.js" async></script>
     
     <link href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css" />
@@ -48,7 +49,7 @@
               <link rel="preload" as="image" href="./assets/images/slider/ryoji-iwata-normal.avif" media="(min-width: 1024px)">
 
               <img src="./assets/images/slider/ryoji-iwata-small.avif" width="50%" height="auto" alt="..." class="d-block w-100 " sizes="100vw"/>
-              
+
               <source media="(max-width: 720px)" width="100%" height="300" srcset="./assets/images/slider/ryoji-iwata-small.avif" />
               <source media="(min-width: 721px) and (max-width: 1024px)" width="100%" height="500" srcset="./assets/images/slider/ryoji-iwata-medium.avif" />
               <source media="(min-width: 1024px)" width="100%" height="900" srcset="./assets/images/slider/ryoji-iwata-normal.avif" />
@@ -103,15 +104,15 @@
       <h3 class="title">Portfolio</h3>
       <div class="container py-3">
         <div class="gallery" style="display: none">
-          <img data-gallery-tag="Concert" class="gallery-item" src="./assets/images/gallery/concerts/aaron-paul.avif" loading="lazy" />
-          <img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/ali-morshedlou.avif" loading="lazy" />
-          <img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/jason-goodman.avif" loading="lazy" />
-          <img data-gallery-tag="Mariages" class="gallery-item" src="./assets/images/gallery/mariage/hannah-busing.avif" loading="lazy" />
-          <img data-gallery-tag="Portrait" class="gallery-item" src="./assets/images/gallery/portraits/ade-tunj.avif" loading="lazy" />
-          <img data-gallery-tag="Mariages" class="gallery-item" src="./assets/images/gallery/mariage/jakob-owens.avif" loading="lazy" />
-          <img data-gallery-tag="Portrait" class="gallery-item" src="./assets/images/gallery/portraits/nino-van-prattenburg.avif" loading="lazy" />
-          <img data-gallery-tag="Concert" class="gallery-item" src="./assets/images/gallery/concerts/austin-neill.avif" loading="lazy" />
-          <img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/mateus-campos.avif" loading="lazy" />
+          <img data-gallery-tag="Concert" class="gallery-item" src="./assets/images/gallery/concerts/aaron-paul.avif" class="lazyload" />
+          <img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/ali-morshedlou.avif" class="lazyload" />
+          <img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/jason-goodman.avif" class="lazyload" />
+          <img data-gallery-tag="Mariages" class="gallery-item" src="./assets/images/gallery/mariage/hannah-busing.avif" class="lazyload" />
+          <img data-gallery-tag="Portrait" class="gallery-item" src="./assets/images/gallery/portraits/ade-tunj.avif" class="lazyload" />
+          <img data-gallery-tag="Mariages" class="gallery-item" src="./assets/images/gallery/mariage/jakob-owens.avif" class="lazyload" />
+          <img data-gallery-tag="Portrait" class="gallery-item" src="./assets/images/gallery/portraits/nino-van-prattenburg.avif" class="lazyload" />
+          <img data-gallery-tag="Concert" class="gallery-item" src="./assets/images/gallery/concerts/austin-neill.avif" class="lazyload" />
+          <img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/mateus-campos.avif" class="lazyload" />
         </div>
       </div>
       <div class="quote">
