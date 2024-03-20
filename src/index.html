@@ -6,20 +6,23 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-   
+
     <link rel="preload" href="./assets/style.min.css" as="style" />
     <link rel="preload" href="./assets/bootstrap/bootstrap.min.css" as="style" />
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" as="style" onload="this.rel='stylesheet'">
 
     <script src="./assets/bootstrap/bootstrap.bundle.min.js" defer></script>
     <script src="./assets/maugallery.min.js" defer></script>
     <script src="./assets/scripts.min.js" defer></script>
-    
+
     <link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css" />
     <link rel="stylesheet" href="./assets/style.min.css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" media="print" onload="this.onload=null;this.removeAttribute('media');" fetchpriority="high" />
+    
     <noscript>
-      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap">
-  </noscript>
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" />
+    </noscript>
+
     <title>Nina Carducci - Photographe</title>
   </head>
   <body>
@@ -32,7 +35,7 @@
           <li><a href="#services">Service</a></li>
           <li><a href="#contact">Contact</a></li>
           <li>
-            <a class="social-link" href="https://www.instagram.com/ninacarducci.photo/?hl=fr" target="_blank"><img src="assets/images/instagram.png" alt="" width="100%" height="30vh"  loading="lazy"/></a>
+            <a class="social-link" href="https://www.instagram.com/ninacarducci.photo/?hl=fr" target="_blank"><img src="assets/images/instagram.png" alt="" width="100%" height="30vh" loading="lazy" /></a>
           </li>
         </ul>
       </div>
@@ -47,9 +50,9 @@
         <div class="carousel-inner">
           <div class="carousel-item active">
             <picture>
-              <link rel="preload" as="image" href="./assets/images/slider/ryoji-iwata-normal.avif" media="(min-width: 1024px)">
+              <link rel="preload" as="image" href="./assets/images/slider/ryoji-iwata-normal.avif" media="(min-width: 1024px)" />
 
-              <img src="./assets/images/slider/ryoji-iwata-small.avif" width="50%" height="300" alt="..." class="d-block w-100 " sizes="100vw"/>
+              <img src="./assets/images/slider/ryoji-iwata-small.avif" width="50%" height="300" alt="..." class="d-block w-100" sizes="100vw" />
               <source media="(max-width: 720px)" width="100%" height="300" srcset="./assets/images/slider/ryoji-iwata-small.avif" />
               <source media="(min-width: 721px) and (max-width: 1024px)" width="100%" height="500" srcset="./assets/images/slider/ryoji-iwata-medium.avif" />
               <source media="(min-width: 1024px)" width="100%" height="900" srcset="./assets/images/slider/ryoji-iwata-normal.avif" />
@@ -60,7 +63,7 @@
               <source media="(max-width: 720px)" width="100%" height="300" srcset="./assets/images/slider/nicholas-green-small.avif" />
               <source media="(min-width: 721px) and (max-width: 1024px)" width="100%" height="500" srcset="./assets/images/slider/nicholas-green-medium.avif" />
               <source media="(min-width: 1024px)" width="100%" height="900" srcset="./assets/images/slider/nicholas-green-normal.avif" />
-              <img src="./assets/images/slider/nicholas-green-small.avif" width="100%" height="300" alt="..." class="d-block w-100" loading="lazy"/>
+              <img src="./assets/images/slider/nicholas-green-small.avif" width="100%" height="300" alt="..." class="d-block w-100" loading="lazy" />
             </picture>
           </div>
           <div class="carousel-item">
@@ -68,7 +71,7 @@
               <source media="(max-width: 720px)" width="100%" height="300" srcset="./assets/images/slider/edward-cisneros-small.avif" />
               <source media="(min-width: 721px) and (max-width: 1024px)" width="100%" height="500" srcset="./assets/images/slider/edward-cisneros-medium.avif" />
               <source media="(min-width: 1024px)" width="100%" height="900" srcset="./assets/images/slider/edward-cisneros-normal.avif" />
-              <img src="./assets/images/slider/edward-cisneros-small.avif" width="100%" height="300" alt="..." class="d-block w-100" loading="lazy"/>
+              <img src="./assets/images/slider/edward-cisneros-small.avif" width="100%" height="300" alt="..." class="d-block w-100" loading="lazy" />
             </picture>
           </div>
         </div>
@@ -88,7 +91,7 @@
           <source media="(max-width: 720px)" width="100%" height="300" srcset="./assets/images/nina-small.avif" />
           <source media="(min-width: 721px) and (max-width: 1024px)" width="100%" height="500" srcset="./assets/images/nina-medium.avif" />
           <source media="(min-width: 1024px)" width="100%" height="470" srcset="./assets/images/nina.avif" />
-          <img src="./assets/images/nina-small.avif" width="100%" height="300" alt="..." loading="lazy" class="d-block w-100"/>
+          <img src="./assets/images/nina-small.avif" width="100%" height="300" alt="..." loading="lazy" class="d-block w-100" />
         </picture>
       </div>
       <div id="about-me">
@@ -110,8 +113,8 @@
           <img data-gallery-tag="Mariages" class="gallery-item" src="./assets/images/gallery/mariage/hannah-busing.avif" loading="lazy" alt="entreprises" />
           <img data-gallery-tag="Portrait" class="gallery-item" src="./assets/images/gallery/portraits/ade-tunj.avif" loading="lazy" alt="mariages" />
           <img data-gallery-tag="Mariages" class="gallery-item" src="./assets/images/gallery/mariage/jakob-owens.avif" loading="lazy" alt="portrait" />
-          <img data-gallery-tag="Portrait" class="gallery-item" src="./assets/images/gallery/portraits/nino-van-prattenburg.avif" loading="lazy" alt="mariages"/>
-          <img data-gallery-tag="Concert" class="gallery-item" src="./assets/images/gallery/concerts/austin-neill.avif" loading="lazy" alt="concert"/>
+          <img data-gallery-tag="Portrait" class="gallery-item" src="./assets/images/gallery/portraits/nino-van-prattenburg.avif" loading="lazy" alt="mariages" />
+          <img data-gallery-tag="Concert" class="gallery-item" src="./assets/images/gallery/concerts/austin-neill.avif" loading="lazy" alt="concert" />
           <img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/mateus-campos.avif" loading="lazy" alt="entreprise" />
         </div>
       </div>
