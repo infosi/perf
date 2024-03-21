@@ -11,9 +11,10 @@
     <link rel="preload" href="./assets/bootstrap/bootstrap.min.css" as="style" />
     <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" as="style" onload="this.rel='stylesheet'" />
 
-    <link rel="preload" href="./assets/images/slider/ryoji-iwata-small.avif" as="image" media="(max-width: 420px)" />
+    <link rel="preload" as="image" href="./assets/images/slider/ryoji-iwata-normal.avif" imagesrcset="./assets/images/slider/ryoji-iwata-small.avif 400w, ./assets/images/slider/ryoji-iwata-medium.avif 800w, ./assets/images/slider/ryoji-iwata-normal.avif 1600w" imagesizes="50vw">
+    <!-- <link rel="preload" href="./assets/images/slider/ryoji-iwata-small.avif" as="image" media="(max-width: 420px)" />
     <link rel="preload" href="./assets/images/slider/ryoji-iwata-medium.avif" as="image" media="(min-width: 420.1px) and (max-width: 800px)" />
-    <link rel="preload" href="./assets/images/slider/ryoji-iwata-normal.avif" as="image" media="(min-width: 800.1px)" />
+    <link rel="preload" href="./assets/images/slider/ryoji-iwata-normal.avif" as="image" media="(min-width: 800.1px)" /> -->
     <!-- <link rel="preload"
     as="image"
     href="./assets/images/slider/ryoji-iwata-normal.avif"
@@ -60,12 +61,13 @@
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <picture>
+            <!-- <picture>
               <source srcset="./assets/images/slider/ryoji-iwata-small.avif" media="(max-width: 420px)" />
               <source srcset="./assets/images/slider/ryoji-iwata-medium.avif" media="(max-width: 800px)" />
               <img src="./assets/images/slider/ryoji-iwata-normal.avif" width="440" height="440" alt="..." class="d-block w-100 h-100" />
-            </picture>
+            </picture> -->
 
+            <img src="./assets/images/slider/ryoji-iwata-normal.avif" srcset="./assets/images/slider/ryoji-iwata-small.avif 420w, ./assets/images/slider/ryoji-iwata-medium.avif 800w, ./assets/images/slider/ryoji-iwata-normal.avif 1600w" sizes="50vw" alt="A rad wolf">
             <!-- <img
               width="600"
               height="600"
